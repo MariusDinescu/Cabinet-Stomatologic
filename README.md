@@ -1,0 +1,7 @@
+Această aplicație se ocupă de administrarea unui cabinet stomatologic și permite gestionarea utilizatorilor de tip medic, administrator și pacient. În funcție de aceste tipuri de utilizatori, se defineste o serie de atribute pentru fiecare dintre aceștia, cum ar fi numele de utilizator, parola și informațiile specifice tipului de utilizator (de exemplu, declarația Covid pentru pacienți și caracterizarea pentru medici).
+
+Aplicația citeste utilizatorii dintr-un fișier text dat și formează trei liste separate cu utilizatorii valizi pentru fiecare dintre cele trei tipuri de utilizatori menționate. Se afișează lungimea fiecărei liste, primul și ultimul element din fiecare listă și se verifică dacă lista utilizatorilor are elemente unice.
+
+De asemenea, aplicația formează o listă cu toți utilizatorii valizi și oferă metode pentru verificarea dacă toți pacienții au același medic sau nu, pentru a afla câți dintre pacienți au fost diagnosticați cu Covid în luna februarie a anului 2020 și pentru a verifica câți medici dintr-o listă de medici au caracterizarea cuvântului "cardiolog". Lista administratorilor este sortată în funcție de numele de utilizator.
+
+De asemenea, aplicația oferă posibilitatea de a adăuga un nou pacient în lista de pacienți, în cazul în care acesta este valid și nu există deja în listă. În final, aplicația calculează procentul de pacienți care au avut Covid și formează o listă cu elemente unice de forma unor perechi de forma (TipUser, CelelalteCaracteristici) pentru primii 5 utilizatori valizi din fișierul text dat.
